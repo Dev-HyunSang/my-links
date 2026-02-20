@@ -27,7 +27,7 @@ onMounted(() => {
     <h1 class="title">HyunSang Park</h1>
     <div class="btn-container">
       <button class="link-btn">
-        <a href="mailto:me@hyunsang.dev">Send to me <span class="parameter">/mail</span> &rarr;</a>
+        <a href="mailto:me@hyunsang.dev">Send Mail <span class="parameter">/mail</span> &rarr;</a>
       </button>
       <button class="link-btn">
         <a href="https://hyunsang.dev">Resume <span class="parameter">/resume</span> &rarr;</a>
