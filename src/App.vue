@@ -88,6 +88,7 @@ button, a {
   background-color: #000;
 }
 .link-btn:hover {
-  background-color: #f5f5f5;
+  background-color: #ccc;
+  color: #000;
 }
 </style>
