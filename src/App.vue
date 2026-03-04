@@ -7,6 +7,7 @@ const links: Record<string, string> = {
   ig: 'https://instagram.com/p._.hyunsang',
   gh: 'https://github.com/dev-hyunsang',
   blog: 'https://blog.hyunsang.dev',
+  news: 'https://news.hyunsang.dev',
   resume: 'https://hyunsang.dev',
   li: 'https://linkedin.com/in/parkhyunsang'
 };
@@ -27,22 +28,25 @@ onMounted(() => {
     <h1 class="title">HyunSang Park</h1>
     <div class="btn-container">
       <button class="link-btn">
-        <a href="mailto:me@hyunsang.dev">Send Mail <span class="parameter">/mail</span> &rarr;</a>
+        <a href="/mail">Send Mail <span class="parameter">/mail</span> &rarr;</a>
       </button>
       <button class="link-btn">
-        <a href="https://hyunsang.dev">Resume <span class="parameter">/resume</span> &rarr;</a>
+        <a href="/resume">Resume <span class="parameter">/resume</span> &rarr;</a>
       </button>
       <button class="link-btn">
-        <a href="https://blog.hyunsang.dev">Blog <span class="parameter">/blog</span> &rarr;</a>
+        <a href="/blog">Blog <span class="parameter">/blog</span> &rarr;</a>
       </button>
       <button class="link-btn">
-        <a href="https://github.com/dev-hyunsang">GitHub <span class="parameter">/gh</span> &rarr;</a>
+        <a href="/news">News <span class="parameter">/news</span> &rarr;</a>
       </button>
       <button class="link-btn">
-        <a href="https://linkedin.com/in/parkhyunsang">Linkedin <span class="parameter">/li</span> &rarr;</a>
+        <a href="/gh">GitHub <span class="parameter">/gh</span> &rarr;</a>
       </button>
       <button class="link-btn">
-        <a href="https://instagram.com/p._.hyunsang">Instagram <span class="parameter">/ig</span> &rarr;</a>
+        <a href="/li">Linkedin <span class="parameter">/li</span> &rarr;</a>
+      </button>
+      <button class="link-btn">
+        <a href="/ig">Instagram <span class="parameter">/ig</span> &rarr;</a>
       </button>
     </div>
   </div>
