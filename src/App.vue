@@ -59,6 +59,7 @@ onMounted(() => {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
 }
 a, p, h1, span {
   color: #fff;
