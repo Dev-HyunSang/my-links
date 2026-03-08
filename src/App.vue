@@ -9,7 +9,8 @@ const links: Record<string, string> = {
   blog: 'https://blog.hyunsang.dev',
   news: 'https://news.hyunsang.dev',
   resume: 'https://hyunsang.dev',
-  li: 'https://linkedin.com/in/parkhyunsang'
+  li: 'https://linkedin.com/in/parkhyunsang',
+  til: 'https://til.hyunsang.dev'
 };
 
 onMounted(() => {
@@ -35,6 +36,9 @@ onMounted(() => {
       </button>
       <button class="link-btn">
         <a href="/blog">Blog <span class="parameter">/blog</span> &rarr;</a>
+      </button>
+      <button class="link-btn">
+        <a href="/til">TIL <span class="parameter">/til</span> &rarr;</a>
       </button>
       <button class="link-btn">
         <a href="/news">News <span class="parameter">/news</span> &rarr;</a>
