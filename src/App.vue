@@ -97,9 +97,10 @@ button, a {
   border: 1px solid #ccc;
   cursor: pointer;
   background-color: #000;
+  transition: all 0.2s ease;
 }
 .link-btn:hover {
-  background-color: #ccc;
-  color: #000;
+  background-color: #2a2a2a;
+  border-color: #fff;
 }
 </style>
