@@ -10,7 +10,8 @@ const links: Record<string, string> = {
   news: 'https://news.hyunsang.dev',
   resume: 'https://hyunsang.dev',
   li: 'https://linkedin.com/in/parkhyunsang',
-  til: 'https://til.hyunsang.dev'
+  til: 'https://til.hyunsang.dev',
+  hack: 'https://hack.hyunsang.dev'
 };
 
 onMounted(() => {
@@ -36,6 +37,9 @@ onMounted(() => {
       </button>
       <button class="link-btn">
         <a href="/blog">Blog <span class="parameter">/blog</span> &rarr;</a>
+      </button>
+      <button class="link-btn">
+        <a href="/hack">Hack <span class="parameter">/hack</span> &rarr;</a>
       </button>
       <button class="link-btn">
         <a href="/til">TIL <span class="parameter">/til</span> &rarr;</a>
