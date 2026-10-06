@@ -28,6 +28,8 @@ onMounted(() => {
 <template>
   <div id="app" class="main-container">
     <h1 class="title">HyunSang Park</h1>
+    <p>Software Engineer</p>
+    <p>Es irrt der Mensch, solang' er strebt.</p>
     <div class="btn-container">
       <button class="link-btn">
         <a href="/mail">Send Mail <span class="parameter">/mail</span> &rarr;</a>
@@ -106,5 +108,20 @@ button, a {
 .link-btn:hover {
   background-color: #2a2a2a;
   border-color: #fff;
+}
+p {
+  padding: 0.5rem;
+  margin: 0;
+}
+@media (max-width: 600px) {
+  .main-container {
+    min-height: 100vh;
+  }
+  .link-btn {
+    width: 100%;
+  }
+  .btn-container {
+    flex-direction: column;
+  }
 }
 </style>
