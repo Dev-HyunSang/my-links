@@ -117,6 +117,9 @@ p {
   .main-container {
     min-height: 100vh;
   }
+  .title {
+    font-size: 1.5rem;
+  }
   .link-btn {
     width: 100%;
   }
