@@ -27,7 +27,7 @@ onMounted(() => {
 
 <template>
   <div id="app" class="main-container">
-    <h1 class="title">HyunSang Park</h1>
+    <h1 class="title">Hyunsang Park</h1>
     <p>Software Engineer</p>
     <p>Es irrt der Mensch, solang' er strebt.</p>
     <div class="btn-container">
@@ -71,7 +71,7 @@ onMounted(() => {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 a, p, h1, span {
   color: #fff;
@@ -114,9 +114,6 @@ p {
   margin: 0;
 }
 @media (max-width: 600px) {
-  .main-container {
-    min-height: 100vh;
-  }
   .title {
     font-size: 1.5rem;
   }
